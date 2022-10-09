@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Fylo data storage</title>
+  </head>
+  <body>
+    <div
+      class="min-h-screen flex flex-col justify-center items-center md:flex-row space-y-4 md:space-x-4"
+    >
+      <div
+        class="bg-darkBlue space-y-10 py-10 pr-32 pl-8 rounded-l-md rounded-tr-[8rem] rounded-br-md"
+      >
+        <img src="images/logo.svg" alt="" />
+        <div class="flex space-x-5">
+          <div class="bg-veryDarkBlue p-3 rounded-md">
+            <img src="images/icon-document.svg" alt="" />
+          </div>
+          <div class="bg-veryDarkBlue p-3 rounded-md">
+            <img src="images/icon-folder.svg" alt="" />
+          </div>
+          <div class="bg-veryDarkBlue p-3 rounded-md">
+            <img src="images/icon-upload.svg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="bg-darkBlue space-y-4 md:py-5 md:mt-12 p-10 rounded-lg">
+        <p class="text-center text-grayishBlue md:text-left">
+          You've used <span class="font-bold text-paleBlue">815GB</span> of your
+          storage
+        </p>
+        <input type="range" name="" id="my-slider" class="md:w-96" />
+        <div class="flex text-paleBlue justify-between">
+          <p class="font-bold uppercase">0gb</p>
+          <p class="font-bold uppercase">1000gb</p>
+        </div>
+      </div>
+      <div
+        class="absolute bottom-24 bg-white items-center justify-center uppercase flex space-x-3 py-4 px-8 rounded-lg md:bottom-[24rem] md:right-20"
+      >
+        <p class="font-bold text-4xl">185</p>
+        <span class="font-bold text-sm text-grayishBlue">gb left</span>
+      </div>
+    </div>
+  </body>
+</html>
